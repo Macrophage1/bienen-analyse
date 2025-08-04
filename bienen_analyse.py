@@ -104,7 +104,7 @@ fig, ax1 = plt.subplots(figsize=(14, 5))
 ax2 = ax1.twinx()
 
 farben = {
-    "T1": "tab:orange", "H1": "tab:cyan", "G1": "tab:gray",
+    "T1": "tab:orange", "H1": "tab:cyan", "G1": "tab:#339933",
     "T2": "tab:red", "H2": "tab:blue", "G2": "tab:green"
 }
 
@@ -138,5 +138,6 @@ st.pyplot(fig)
 
 # ----- DOWNLOAD -----
 st.sidebar.markdown("⬇️ [Bereinigte CSV herunterladen](bereinigt.csv)")
+
 
 
