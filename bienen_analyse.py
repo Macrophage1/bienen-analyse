@@ -7,7 +7,7 @@ import matplotlib.dates as mdates
 from streamlit_autorefresh import st_autorefresh
 
 # ----- DATEIEN UND PFAD -----
-ROHDATEI = "/Users/johanneszabka/Library/CloudStorage/OneDrive-Persönlich/Dokumente/Sensor/waagen_log.csv"
+ROHDATEI = "waagen_log.csv"
 BEREINIGTE_CSV = "bereinigt.csv"
 
 # ----- FUNKTION: PARSEN DER ROHDATEN -----
@@ -138,3 +138,4 @@ st.pyplot(fig)
 
 # ----- DOWNLOAD -----
 st.sidebar.markdown("⬇️ [Bereinigte CSV herunterladen](bereinigt.csv)")
+
