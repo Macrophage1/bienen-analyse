@@ -104,9 +104,14 @@ fig, ax1 = plt.subplots(figsize=(14, 5))
 ax2 = ax1.twinx()
 
 farben = {
-    "T1": "tab:orange", "H1": "tab:cyan", "G1": "tab:#339933",
-    "T2": "tab:red", "H2": "tab:blue", "G2": "tab:green"
+    "T1": "tab:orange",
+    "H1": "tab:cyan",
+    "G1": "#339933",      # Gewicht Volk 1 – grün
+    "T2": "tab:red",
+    "H2": "tab:blue",
+    "G2": "#006600"       # Gewicht Volk 2 – dunkelgrün
 }
+
 
 if "Volk 1" in völker:
     if "Temperatur" in werte:
@@ -138,6 +143,7 @@ st.pyplot(fig)
 
 # ----- DOWNLOAD -----
 st.sidebar.markdown("⬇️ [Bereinigte CSV herunterladen](bereinigt.csv)")
+
 
 
 
