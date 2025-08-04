@@ -104,8 +104,8 @@ fig, ax1 = plt.subplots(figsize=(14, 5))
 ax2 = ax1.twinx()
 
 farben = {
-    "T1": "tab:blue", "H1": "tab:cyan", "G1": "tab:gray",
-    "T2": "tab:red", "H2": "tab:orange", "G2": "tab:green"
+    "T1": "tab:orange", "H1": "tab:cyan", "G1": "tab:gray",
+    "T2": "tab:red", "H2": "tab:blue", "G2": "tab:green"
 }
 
 if "Volk 1" in völker:
@@ -138,4 +138,5 @@ st.pyplot(fig)
 
 # ----- DOWNLOAD -----
 st.sidebar.markdown("⬇️ [Bereinigte CSV herunterladen](bereinigt.csv)")
+
 
